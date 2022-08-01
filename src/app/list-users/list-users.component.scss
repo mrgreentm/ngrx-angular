@@ -2,10 +2,19 @@ td {
   margin-right: 1rem;
   padding-right: 1rem;
   color: #fff;
+  text-align: center;
 }
 thead {
   background-color: rgb(69, 67, 216);
 }
 tbody {
   background-color: rgb(56, 54, 180);
+}
+button {
+  margin: 0 auto;
+  border: none;
+  padding: 1rem;
+  color: #fff;
+  background-color: rgb(26, 25, 97);
+  cursor: pointer;
 }

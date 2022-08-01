@@ -12,11 +12,13 @@
   </thead>
   <tbody>
     <tr *ngFor="let user of allUsers$ | async">
-      <td> {{ user.id }} </td>
-      <td> {{ user.name }} </td>
-      <td> {{ user.hierarchyUser }} </td>
-      <td> {{ user.age }} </td>
-      <td> ação </td>
+      <td>{{ user.id }}</td>
+      <td>{{ user.name }}</td>
+      <td>{{ user.hierarchyUser }}</td>
+      <td>{{ user.age }}</td>
+      <td>
+        <button class="edit-button">Editar</button>
+      </td>
     </tr>
   </tbody>
 </table>

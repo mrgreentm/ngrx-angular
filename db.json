@@ -17,6 +17,12 @@
       "name": "Jubileu Jacinto",
       "hierarchyUser": "Master-Admin",
       "age": 25
+    },
+    {
+      "name": "Mary Pops",
+      "age": "45",
+      "hierarchyUser": "Babá",
+      "id": 4
     }
   ]
 }

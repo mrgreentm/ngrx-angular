@@ -1,0 +1,9 @@
+<form [formGroup]="form">
+  <div>
+    <input type="text" formControlName="name" placeholder="Digite o seu nome">
+    <input type="text" formControlName="age" placeholder="Digite o sua idade">
+    <input type="text" formControlName="hierarchyUser" placeholder="Digite sua Hierarquia">
+  </div>
+
+  <button (click)="addUser()">Enviar</button>
+</form>
