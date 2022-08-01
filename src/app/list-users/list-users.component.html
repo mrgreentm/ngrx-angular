@@ -1,0 +1,22 @@
+<p>list-users works!</p>
+
+<table>
+  <thead>
+    <tr>
+      <td>Id</td>
+      <td>Nome</td>
+      <td>Hierarquia</td>
+      <td>Idade</td>
+      <td>Ação</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of allUsers$ | async">
+      <td> {{ user.id }} </td>
+      <td> {{ user.name }} </td>
+      <td> {{ user.hierarchyUser }} </td>
+      <td> {{ user.age }} </td>
+      <td> ação </td>
+    </tr>
+  </tbody>
+</table>

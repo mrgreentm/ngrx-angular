@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "João Jacinto",
+      "hierarchyUser": "Admin",
+      "age": 18
+    },
+    {
+      "id": 2,
+      "name": "John Jacinto",
+      "hierarchyUser": "User",
+      "age": 21
+    },
+    {
+      "id": 3,
+      "name": "Jubileu Jacinto",
+      "hierarchyUser": "Master-Admin",
+      "age": 25
+    }
+  ]
+}
